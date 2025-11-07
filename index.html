@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Herramientas de Comunicación y Socialización – Estudios en Línea</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Guía práctica de herramientas imprescindibles para comunicarte y socializar en tus estudios en línea: correo, mensajería, videollamadas, redes, blogs…">
+  <style>
+    :root {
+      --bg: #ffffff;
+      --fg: #222222;
+      --accent: #0066cc;
+      --card: #f5f7fa;
+      --border: #e0e0e0;
+    }
+    [data-theme="dark"] {
+      --bg: #121212;
+      --fg: #e0e0e0;
+      --accent: #4dabf7;
+      --card: #1e1e1e;
+      --border: #333333;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--fg);
+      line-height: 1.6;
+      transition: background .3s, color .3s;
+    }
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: var(--card);
+      border-bottom: 1px solid var(--border);
+      padding: .7rem 1rem;
+    }
+    .header-inner {
+      max-width: 1000px;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    h1 {
+      font-size: 1.3rem;
+      color: var(--accent);
+    }
+    nav a {
+      margin-left: .8rem;
+      color: var(--fg);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .toggle-dark {
+      cursor: pointer;
+      background: none;
+      border: none;
+      font-size: 1.2rem;
+      color: var(--fg);
+      margin-left: .8rem;
+    }
+    main {
+      max-width: 800px;
+      margin: auto;
+      padding: 2rem 1rem 4rem;
+    }
+    section {
+      margin-bottom: 3rem;
+      scroll-margin-top: 70px;
+    }
+    h2 {
+      margin-bottom: 1rem;
+      color: var(--accent);
+    }
+    h3 {
+      margin-top: 1.5rem;
+      margin-bottom: .5rem;
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+    th, td {
+      padding: .6rem .5rem;
+      border: 1px solid var(--border);
+      text-align: left;
+    }
+    th {
+      background: var(--card);
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.2rem;
+      margin-bottom: 1.2rem;
+    }
+    .checklist {
+      list-style: none;
+    }
+    .checklist li:before {
+      content: "☐ ";
+      font-weight: bold;
+      margin-right: .4rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: .85rem;
+      color: var(--fg);
+      opacity: .7;
+    }
+    @media (max-width: 600px) {
+      nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: .5rem;
+      }
+      h1 {
+        font-size: 1.1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <h1>Comunicación & Socialización</h1>
+      <nav aria-label="Principal">
+        <a href="#intro">Intro</a>
+        <a href="#comunicacion">Comunicación</a>
+        <a href="#socializacion">Socialización</a>
+        <a href="#checklist">Checklist</a>
+        <button class="toggle-dark" aria-label="Cambiar tema">🌗</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="intro">
+      <h2>Introducción</h2>
+      <p>Estudiar en línea ya no es una opción alternativa: es la norma para millones de personas. Sin embargo, la clave del éxito no radica únicamente en tener buenos contenidos, sino en saber <strong>comunicarse</strong> y <strong>socializar</strong> eficazmente con compañeros, profesores y la comunidad académica. En esta guía repasamos las herramientas imprescindibles que te ayudarán a mantenerte conectado, colaborar en proyectos y construir tu presencia digital sin morir en el intento.</p>
+    </section>
+
+    <section id="comunicacion">
+      <h2>1. Comunicación asíncrona: el correo electrónico todavía manda</h2>
+      <div class="card">
+        <h3>¿Por qué sigue siendo importante?</h3>
+        <ul>
+          <li>Es <strong>universal</strong>: todos los campus virtuales lo requieren.</li>
+          <li>Es <strong>formal</strong>: sirve para entregar tareas, pedir ayuda o contactar a un tutor.</li>
+          <li>Es <strong>rastreable</strong>: puedes recuperar historiales, fechas y archivos adjuntos.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Consejos exprés</h3>
+        <ol>
+          <li>Crea una <strong>dirección profesional</strong> (nombre.apellido@proveedor.com).</li>
+          <li>Usa un <strong>asunto claro</strong>: «Duda sobre el ensayo de Historia – Grupo B».</li>
+          <li>Redacta en <strong>bloques cortos</strong>, con saludo y despedida.</li>
+          <li>Revisa la <strong>ortografía</strong> antes de enviar.</li>
+        </ol>
+      </div>
+      <div class="card">
+        <h3>Herramientas recomendadas</h3>
+        <ul>
+          <li><strong>Gmail</strong> (integrado con Drive, Meet y Calendar).</li>
+          <li><strong>Outlook</strong> (ideal si tu universidad usa Microsoft 365).</li>
+          <li><strong>ProtonMail</strong> (si priorizas la privacidad).</li>
+        </ul>
+      </div>
+
+      <h2>2. Comunicación síncrona: mensajería instantánea</h2>
+      <div class="card">
+        <h3>Cuándo usarla</h3>
+        <ul>
+          <li>Dudas rápidas antes de un examen.</li>
+          <li>Coordinación de grupos de estudio en tiempo real.</li>
+          <li>Compartir enlaces o archivos «en caliente».</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Mejores apps</h3>
+        <ul>
+          <li><strong>WhatsApp</strong> – Crea grupos privados y usa «Listas de transmisión» para avisos.</li>
+          <li><strong>Telegram</strong> – Límite de 200 000 miembros por canal; bots para encuestas y recordatorios.</li>
+          <li><strong>Microsoft Teams</strong> – Chat + videollamada + almacenamiento en la misma ventana.</li>
+          <li><strong>Discord</strong> – Canales de voz y texto ilimitados; muy usado en bootcamps.</li>
+        </ul>
+      </div>
+
+      <h2>3. Videollamadas: más allá de la clase magistral</h2>
+      <div class="card">
+        <h3>Plataformas destacadas</h3>
+        <ul>
+          <li><strong>Zoom</strong> – Salones breakout, encuestas y grabación en la nube.</li>
+          <li><strong>Google Meet</strong> – Acceso directo desde el calendario de Gmail.</li>
+          <li><strong>BigBlueButton</strong> – Software libre integrado en Moodle.</li>
+          <li><strong>Jitsi</strong> – No requiere cuenta; solo comparte el enlace.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="socializacion">
+      <h2>4. Socialización: redes sociales pensadas para el aprendizaje</h2>
+      <div class="card">
+        <h3>Redes útiles</h3>
+        <ul>
+          <li><strong>LinkedIn</strong> – Perfil académico-profesional; sigue a profesores y universidades.</li>
+          <li><strong>Twitter (X)</strong> – Listas temáticas (#EdTech, #eLearning); participa en Twitter Spaces.</li>
+          <li><strong>Reddit</strong> – Subreddits como r/AskAcademia o r/Students; anónimo y moderado.</li>
+          <li><strong>Facebook Groups</strong> – Grupos cerrados por carrera; ideal para apuntes y becas.</li>
+        </ul>
+      </div>
+
+      <h2>5. Blogs y páginas personales: tu carta de presentación digital</h2>
+      <div class="card">
+        <h3>Plataformas fáciles (sin tocar código)</h3>
+        <ul>
+          <li><strong>WordPress.com</strong></li>
+          <li><strong>Google Sites</strong></li>
+          <li><strong>Wix / Squarespace</strong></li>
+          <li><strong>Notion</strong></li>
+          <li><strong>GitHub Pages</strong> (si estudias tecnología)</li>
+        </ul>
+      </div>
+
+      <h2>6. Mapa mental rápido: ¿qué uso en cada fase del curso?</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Fase del curso</th>
+            <th>Herramienta estrella</th>
+            <th>Propósito</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Inscripción</td>
+            <td>Correo corporativo</td>
+            <td>Entregar documentación</td>
+          </tr>
+          <tr>
+            <td>Semana 1</td>
+            <td>WhatsApp/Telegram</td>
+            <td>Romper el hielo con compañeros</td>
+          </tr>
+          <tr>
+            <td>Trabajo en equipo</td>
+            <td>Teams/Zoom + Drive</td>
+            <td>Reuniones y co-edición</td>
+          </tr>
+          <tr>
+            <td>Dudas puntuales</td>
+            <td>Foro interno o Reddit</td>
+            <td>Respuesta de la comunidad</td>
+          </tr>
+          <tr>
+            <td>Entrega final</td>
+            <td>Blog personal</td>
+            <td>Exhibir el proyecto</td>
+          </tr>
+          <tr>
+            <td>Networking posterior</td>
+            <td>LinkedIn</td>
+            <td>Mantener contacto</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="checklist">
+      <h2>7. Checklist para empezar hoy mismo</h2>
+      <ul class="checklist">
+        <li>Crea un correo exclusivo para lo académico.</li>
+        <li>Únete al grupo de WhatsApp o Telegram de tu asignatura.</li>
+        <li>Instala la app de videollamadas oficial de tu universidad.</li>
+        <li>Abre una cuenta en LinkedIn y completa al 100 % tu perfil.</li>
+        <li>Lanza un blog gratuito con tu nombre; publica tu primera entrada: «Por qué estudio esta carrera».</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Conclusión</h2>
+      <p>Dominar las herramientas de comunicación y socialización no es un capricho tecnológico: es la <strong>puerta de entrada a una experiencia educativa completa</strong>. Cuanto antes integres el correo, la mensajería, las videollamadas y tu presencia digital en un mismo flujo de trabajo, más tiempo podrás dedicar a lo realmente importante: <em>aprender, colaborar y crecer</em>.</p>
+      <p>¡Comparte esta guía con tus compañeros y empieza a construir tu ecosistema digital de aprendizaje desde hoy!</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Licencia: Creative Commons BY-NC-SA 4.0 | 8 de noviembre de 2025</p>
+  </footer>
+
+  <script>
+    // Cambio de tema
+    const btn = document.querySelector('.toggle-dark');
+    const html = document.documentElement;
+    const saved = localStorage.getItem('theme');
+    if (saved) html.setAttribute('data-theme', saved);
+    btn.addEventListener('click', () => {
+      const current = html.getAttribute('data-theme');
+      const next = current === 'dark' ? 'light' : 'dark';
+      html.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+    });
+
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+  </script>
+</body>
+</html>
